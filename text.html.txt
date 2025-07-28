@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sowshitha Raguru | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: block;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #575757;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+    .skills, .languages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills span, .languages span {
+      background: #e0f7e9;
+      padding: 6px 12px;
+      border-radius: 20px;
+    }
+    .project, .cert {
+      margin-bottom: 20px;
+    }
+    button.toggle {
+      background: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .content { display: none; margin-top: 10px; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 40px;
+    }
+    a { color: #4CAF50; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sowshitha Raguru</h1>
+  <p>Student at VIT Chennai | AI & Robotics</p>
+</header>
+
+<nav>
+  <a href="#profile">Profile</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#internship">Internship</a>
+  <a href="#certs">Certifications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="profile">
+  <h2>Profile</h2>
+  <p>I am a dedicated and detail-oriented professional with a strong desire to grow and contribute meaningfully. I value continuous learning, effective collaboration, and delivering quality results.</p>
+  <p><strong>Education:</strong><br>
+    <ul>
+      <li>VIT Chennai — B.Tech in CSE with AI & Robotics (2019–2023)</li>
+      <li>C.S.I Ewart School, Chennai — High School</li>
+    </ul>
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills & Languages</h2>
+  <div class="skills">
+    <span>JavaScript</span><span>Java</span><span>Python</span><span>HTML</span><span>CSS</span><span>C++</span><span>VS Code</span>
+  </div>
+  <h3 style="margin-top:20px;">Languages</h3>
+  <div class="languages">
+    <span>English (Fluent)</span><span>Telugu</span><span>Tamil</span><span>Hindi</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <button class="toggle">Pet Adoption Website</button>
+    <div class="content">
+      <p>Web platform to connect pet seekers with animals for adoption. Features include filters, pet details, donation options, and shelter integration.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <button class="toggle">Hospital Management Software</button>
+    <div class="content">
+      <p>Centralized system for managing patient records, doctor schedules, billing, and inventory using modern web technologies.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <button class="toggle">Voice & Gesture Controlled Robot</button>
+    <div class="content">
+      <p>Bluetooth-enabled robot that responds to voice and hand gestures. Optimized for low-latency command execution.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <button class="toggle">Stock Market Website</button>
+    <div class="content">
+      <p>Platform to educate users about stock market trends and display real-time stock values.</p>
+    </div>
+  </div>
+</section>
+
+<section id="internship">
+  <h2>Internship - ValueStream Business Solutions</h2>
+  <p><strong>Duration:</strong> May 19, 2025 – June 19, 2025</p>
+  <div class="project">
+    <button class="toggle">Agent Productivity Report Automation</button>
+    <div class="content">
+      <p>Created a Dash web app that aggregates daily agent productivity reports from two sources using Pandas. The tool generates downloadable, unified reports, saving time and reducing errors.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <button class="toggle">Agent Compliance Testing Platform</button>
+    <div class="content">
+      <p>Built a secure Dash-based web platform for agents to take monthly compliance tests online. Automates result storage and access, improving efficiency and reliability.</p>
+    </div>
+  </div>
+</section>
+
+<section id="certs">
+  <h2>Certifications</h2>
+  <div class="cert">
+    <p>✅ <strong>AI for Everyone</strong> (Coursera)<br>
+      <a href="https://coursera.org/share/0fe1456b561bf94029f95b72c4bd3eba" target="_blank">View Certificate</a>
+    </p>
+  </div>
+  <div class="cert">
+    <p>✅ <strong>No Code App Development</strong> - Microsoft Power Apps<br>
+      Microsoft Learn Student Ambassadors</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> <a href="mailto:Sowshy@gmail.com">Sowshy@gmail.com</a><br>
+     <strong>Phone:</strong> <a href="tel:+919363630668">93636 30668</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Sowshitha Raguru | Portfolio Website</p>
+</footer>
+
+<script>
+  const buttons = document.querySelectorAll(".toggle");
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const content = btn.nextElementSibling;
+      content.style.display = content.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
+
+</body>
+</html>
